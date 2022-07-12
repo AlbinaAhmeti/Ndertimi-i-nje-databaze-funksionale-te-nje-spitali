@@ -1,0 +1,275 @@
+%  Pacienti(pid,Emri,Mbiemri,Emri_Prindit,Gjinia,Data_Lindjes,TelMobil,TelFix,Email,Grupi_Gjakut,Alergjite).
+
+pacienti('1','Altin','Musliu','Arian','M','7/11/2000','049100062','038100062','altinmusliu321@hotmail.com','B+','Gluten').
+pacienti('2','Adonis','Xhemajli','Ali','M','18/03/2001','045100080','028100082','adonisxhemajli321@hotmail.com','0-','Jo').
+pacienti('3','Agon','Bojaj','Rodrigo','M','01/01/2001','049100063','028500220','agonbojaj321@hotmail.com','0+','Polen').
+pacienti('4','Albina','Ahmeti','Ismet','F','14/12/2001','049100500','038100500','Albinaahmeti321@hotmail.com','B+','Jo').
+pacienti('5','Anik','Hasani','Ilir','M','07/04/2005','049120240','028120240','Anikhasani321@hotmail.com','0-','Jo').
+pacienti('6','Arilind','Bytyqi','Pllumi','M','11/10/2000','044100800','039100800','Arlindbytyqi321@hotmail.com ','AB+','Polen').
+pacienti('7','Bleron','Sadriu','Ahmet','M','16/04/1994','049100050','038100050','Bleronsadriu321@hotmail.com','A+','Jo').
+pacienti('8','Blerand','Hyseni','Adrian','M','29/02/1988','049105800','290105800','Blerandhyseni@hotmail.com','B-','Qumesht').
+pacienti('9','Dardane','Makolli','Bedri','F','31/10/1981','045150250','038150250','Dardanemakolli321@hotmail.com','0+','Jo').
+pacienti('10','Enis','Sylejmani','Hajdin','M','24/06/2018','044165330','038165330','Enissylejmanii321@hotmail.com','A-','Aspirin').
+pacienti('11','Fatmire','Manaj','Rexhep','F','15/02/1989','049190290','290190290','Fatmiremanaj321@hotmail.com','B+','Polen').
+pacienti('12','Kroni','Susuri','Artan','M','12/12/2012','045185400','390185400','Kronisusuri321@hotmail.com','AB-','Jo').
+pacienti('13','Learta','Haliti','Ylli','F','05/08/2000','049100001','390100001','Leartahaliti321@hotmail.com','A-','trimetoprin Bactrim').
+pacienti('14','Loni','Kastrati','Enis','M','01/03/2004','044108107','039108107','Lonikastrati321@hotmail.com','0+','Aspirin').
+pacienti('15','Mali','Mustafa','Muhamet','M','29/02/2008','044101101','028101101','Malimustafa321@hotmail.com','0-','Jo').
+pacienti('16','Njomza','Bekteshi','Agim','F','13/07/1999','044170180','038170180','Njomzabekteshi321@hotmail.com','A-','Veze').
+pacienti('17','Orik','Ajeti','Kadri','M','11/12/2013','049111222','038111222','Orikajeti321@hotmail.com','AB-','Jo').
+pacienti('18','Puhiza','Gashi','Mehdi','F','04/04/2020','049123789','290123789','Puhizagashi321@hotmail.com','A+','Qumesht').
+pacienti('19','Rilind','Krasniqi','Shpend','M','12/05/2003','044155133','028155133','Rilindkrasniqi321@hotmail.com','AB+','Jo').
+pacienti('20','Sara','Hoti','Altin','F','01/01/2012','049100900','038100900','Sarahoti321@hotmail.com','0-','Jo').
+pacienti('21','Tea','Begu','Uran','F','17/02/2008','045100400','390100400','Teabegu321@hotmail.com','B+','Ushqim deti').
+pacienti('22','Urim','Peja','Egzon','M','24/01/2001','045183184','390183184','Urimpeja321@hotmail.com','B-','Polen').
+pacienti('23','Valdete','Sadiku','Driton','F','15/12/1994','045199991','038199991','Valdetesadiku321@hotmail.com','AB+','Jo').
+pacienti('24','Yll','Limani','Betim','M','10/10/2009','044184184','029184184','Ylllimani321@hotmail.com','0-','Gluten').
+pacienti('25','Zahir','Gashi','Ejup','M','31/06/1979','044190190','028190190','Zahirgashi321@hotmail.com','A+','Jo').
+
+
+% Adresa Pacienti('pID','Rruga','Qyteti','Shteti','KodiPostal').
+
+adresa_pacienti('1','Eliot Engel','Prishtine','Kosove','10000').
+adresa_pacienti('2','Shaban Menxhiqi','Vushtrri','Kosove','42000').
+adresa_pacienti('3','Skenderbeu','Vushtrri','Kosove','42000').
+adresa_pacienti('4','Rruga Jashari','Lipjan','Kosove','14000').
+adresa_pacienti('5','Gjergj Kastrioti','Gjakove','Kosove','50000').
+adresa_pacienti('6','Adem Jashari','Istog','Kosove','31000').
+adresa_pacienti('7','Wesley Clark','Prishtine','Kosove','10000').
+adresa_pacienti('8','Hillary Clinton','Kacanik','Kosove','71000').
+adresa_pacienti('9','Adem Demaci','Prishtine','Kosove','10000').
+adresa_pacienti('10','Martiret e lirise','Prishtine','Kosove','10000').
+adresa_pacienti('11','Agim Ramadani','Ferizaj','Kosove','70000').
+adresa_pacienti('12','Egnatia','Decan','Kosove','51000').
+adresa_pacienti('13','George Bush','Skenderaj','Kosove','41000').
+adresa_pacienti('14','Ali Kelmendi','Vushtrri','Kosove','42000').
+adresa_pacienti('15','Shaban Polluzha','Skenderaj','Kosove','41000').
+adresa_pacienti('16','Azem e Shote Galica','Vushtrri','Kosove','42000').
+adresa_pacienti('17','Flaka e Janarit','Ferizaj','Kosove','70000').
+adresa_pacienti('18','Kadri Zeka','Gjakove','Kosove','50000').
+adresa_pacienti('19','28 Nentori','Prishtine','Kosove','10000').
+adresa_pacienti('20','Dita e Flamurit','Mitrovice','Kosove','40000').
+adresa_pacienti('21','Isa Boletini','Mitrovice','Kosove','40000').
+adresa_pacienti('22','Mihal Grameno','Prishtine','Kosove','10000').
+adresa_pacienti('23','Iliria','Gjilan','Kosove','60000').
+adresa_pacienti('24','Pavarsia','Prizren','Kosove','20000').
+adresa_pacienti('25','17 Shkurti','Gjilan','Kosove','60000').
+
+
+%Doktori('did','Emri','Mbiemri','Titulli','Reparti','TelMobil','TelFix','Email').
+
+doktori('1','Adri','Asllani','Dr.Asoc.','Radiologji','049200056','038200056','Adriasallani321@hotmail.com').
+doktori('2','Arlind','Mehmeti','Dr.Spec.','Ortopedi','045200482','038200482','Arlindmehmeti@hotmail.com').
+doktori('3','Agim','Xhafa','Dr.Cons.','Pediatri','044201401','038201401','Agimxhafa@hotmail.com').
+doktori('4','Albion','Ademi','Dr.Spec.','Psikiatri','049200808','038200808','Albionademi@hotmail.com').
+doktori('5','Alma','Latifi','Dr.Cons.','Pediatri','049200001','038200001','Almalatifi@hotmail.com').
+doktori('6','Drilona','Hasanaj','Dr.Spec.','Ortopedi','044220440','038220440','Drilonahasanaj@hotmail.com').
+doktori('7','Luan','Mehmeti','Dr.Asoc.','Pediatri','045250500','038250500','Luanmehmeti@hotmail.com').
+doktori('8','Mentor','Haziri','Dr.Spec.','Psikiatri','049230230','038230230','Mentorhaziri@hotmail.com').
+doktori('9','Natyre','Mulaku','Dr.Asoc.','Pediatri','044270280','038270280','Natyremulaku@hotmail.com').
+doktori('10','Orhan','Sylejmani','Dr.Cons.','Radiologji','044210220','038210220','Orhansylejmani@hotmail.com').
+doktori('11','Petrit','Luta','Dr.Asoc.','Radiologji','044291291','038291291','Petritluta@hotmail.com').
+doktori('12','Qerim','Kabashi','Dr.Cons.','Ortopedi','045200200','038200200','Qerimkabashi@hotmail.com').
+
+
+%Adresa Doktori('dID','Rruga','Qyteti','Shteti','KodiPostal').
+adresa_doktori('1','Rruga B','Prishtine','Kosove','10000').
+adresa_doktori('2','Ali Ibushi','Gjilan','Kosove','60000').
+adresa_doktori('3','BekimAdemi','Prishtine','Kosove','10000').
+adresa_doktori('4','Al Bytyqi','Vushtrri','Kosove','42000').
+adresa_doktori('5','Jeton Terstena','Prishtine','Kosove','10000').
+adresa_doktori('6','Shqipe Jashari','Ferizaj','Kosove','70000').
+adresa_doktori('7','Hyvzi Sylejmani','Prishtine','Kosove','10000').
+adresa_doktori('8','Justiniani III','Prishtine','Kosove','10000').
+adresa_doktori('9','Rruga Fan Noli','Ferizaj','Kosove','70000').
+adresa_doktori('10','Rruga Janna','Ferizaj','Kosove','70000').
+adresa_doktori('11','Vellezerit Frasheri','Gjilan','Kosove','60000').
+adresa_doktori('12','28 Nentori','Prishtine','Kosove','10000').
+
+
+%terminet(tID,pId,Data,Koha,dID).
+
+terminet('1','4','2020-01-24','17:35:36','1').
+terminet('2','2','2020-01-28','10:10:54','12').
+terminet('3','6','2020-02-14','14:24:30','4').
+terminet('4','5','2002-02-20','14:26:58','10').
+terminet('5','1','2020-03-06','14:26:58','5').
+terminet('6','3','2020-03-18','08:27:34','8').
+terminet('7','7','2020-04-17','12:10:01','11').
+terminet('8','13','2020-04-20','10:00:00','6').
+terminet('9','9','2020-05-14','12:10:01','2').
+terminet('10','11','2020-05-14','19:37:42','9').
+terminet('11','8','2020-06-01','09:46:46','10').
+terminet('12','12','2020-06-15','09:09:14','7').
+terminet('13','10','2020-07-13','11:15:00','2').
+terminet('14','14','2020-07-28','13:42:25','4').
+terminet('15','17','2020-08-10','11:15:00','9').
+terminet('16','15','2020-08-17','15:30:20','6').
+terminet('17','21','2020-08-20','16:49:20','7').
+terminet('18','19','2020-09-01','10:54:21','3').
+terminet('19','22','2020-10-05','10:05:00','12').
+terminet('20','16','2020-10-08','13:19:40','5').
+terminet('21','24','2020-11-13','15:30:20','3').
+terminet('22','20','2020-12-01','19:35:42','8').
+terminet('23','23','2020-12-04','08:26:35','1').
+terminet('24','25','2020-12-09','19:35:42','9').
+terminet('25','18','2020-12-17','16:03:16','11').
+
+
+%Vizitat('vid','tid','pid','did','Terapia','Diagnoza','Data','Koha').
+
+vizitat('994','1','1','1','Operim','Thyerje te 3 brinjeve','2020-01-31', '08:00:00').
+vizitat('1125','2','2','12','Pushim 2 muaj pa aktivitete sportive','Dhimbje ne shpute te kembes','2020-02-04','12:00:00').
+vizitat('2078','3','3','4','Antibiotike_Paxil_Lexapro','Stres','2020-02-21','11:30:00').
+vizitat('2343','4','4','10','Terapi fizikale','Lendimi I miniskusit','2020-02-27','14:30:00').
+vizitat('2809','5','5','5','Limonade','Temperature','2020-03-13',' 15:30:00').
+vizitat('3140','6','6','8','Qetesues','Depresion','2020-03-25',' 16:00:00').
+vizitat('4262','7','7','11','Vendosja e dores ne gjips 1 muaj','Dore e thyer','2020-04-24','10:00:00').
+vizitat('4583','8','8','6','Vendosja e kembes ne gjips 1 muaj Aspirin Maximus','Frakture Femuri','2020-04-27','12:30:00').
+vizitat('5423','9','9','2','Terapi fizikale','Lendimi I muskulit Tendinitis','2020-05-21','14:00:00').
+vizitat('5424','10','10','9','Infuzion Temperature','lodhje','2020-07-20','12:00:00').
+vizitat('6174','11','11','10','Loperamide','Dhimbje ne stomak','2020-06-08','18:30:00').
+vizitat('6186','12','12','7','Krem aknesh','Aknet','2020-06-22','08:30:00').
+vizitat('6998','13','13','2','Terapi fizikale','Shputa te sheshta','2020-05-21','16:00:00').
+vizitat('7435','14','14','4','Rritja e oreve te gjumit','Crregullimi I gjumit','2020-08-04','15:00:00').
+vizitat('7921','15','15','9','Qaj frutash','Ftohje','2020-08-17','08:00:00').
+vizitat('8247','16','16','6','Fitnes','Deformimi i shtylles kurrizore','2020-08-24','11:30:00').
+vizitat('8304','17','17','7','Qaj kamomil','Ftohje','2020-08-27','13:30:00').
+vizitat('8643','18','18','3','Acetaminophen','Temperature','2020-09-08','16:30:00').
+vizitat('9431','19','19','12','Akull Aspirin Produkte qumeshti','Lendim i kembes','2020-10-12','18:00:00').
+vizitat('9490','20','20','5','Injeksion dhe ushqim i lehte','Infektim nga ushqimi','2020-10-15','11:30:00').
+vizitat('10504','21','21','3','Dekompozimi ndaj rrezeve te kaltra','Dhimbje koke nga perdorimi I telefonit','2020-11-20','14:30:00').
+vizitat('11273','22','22','8','Pimavanserin','Halucinacione','2020-12-07','10:00:00').
+vizitat('11916','23','23','1','Vendosja e syzeve','Demtimi I retines','2020-12-11','16:00:00').
+vizitat('12342','24','24','9','Vizita ne bjeshke_thithja e ajrit te paster','Sinuset','2020-12-16','17:30:00').
+vizitat('12691','25','25','11','','','2020-12-31','13:30:00').
+
+
+%Faturat(fID,vID,pID,Cmimi,TVSH,Totali,Data_fatures).	
+
+faturat('11004707','1','1','500','18','590','2020-02-07').
+faturat('21004707','2','2','20','18','23.6','2020-02-04').
+faturat('31004707','3','3','20','18','23.6','2020-02-21').
+faturat('41004707','4','4','20','18','23.6','2020-02-27').
+faturat('51004707','5','5','20','18','23.6','2020-03-13').
+faturat('61004707','6','6','20','18','23.6','2020-03-25').
+faturat('71004707','7','7','50','18','59','2020-04-25').
+faturat('81004707','8','8','300','18','354','2020-05-01').
+faturat('91004707','9','9','20','18','23.6','2020-05-21').
+faturat('12004707','10','10','25','18','29.5','2020-05-21').
+faturat('22004707','11','11','20','18','23.6','2020-06-08').
+faturat('32004707','12','12','20','18','23.6','2020-06-22').
+faturat('42004707','13','13','20','18','23.6','2020-07-20').
+faturat('52004707','14','14','20','18','23.6','2020-08-04').
+faturat('62004707','15','15','20','18','23.6','2020-08-17').
+faturat('72004707','16','16','20','18','23.6','2020-08-24').
+faturat('82004707','17','17','20','18','23.6','2020-08-27').
+faturat('92004707','18','18','20','18','23.6','2020-09-08').
+faturat('13004707','19','19','20','18','23.6','2020-10-12').
+faturat('23004707','20','20','50','18','59','2020-10-17').
+faturat('33004707','21','21','20','18','23.6','2020-11-20').
+faturat('43004707','22','22','250','18','295','2020-12-14').
+faturat('53004707','23','23','20','18','23.6','2020-12-11').
+faturat('63004707','24','24','20','18','23.6','2020-12-16').
+faturat('73004707','25','25','200','18','236','2020-12-28').
+
+%Pagesa(PagesaID,Lloji_pageses,Emri_Bankes,Data_pageses,fID).
+
+pagesa('11004708','Cash',' ','2020-02-07','11004707').
+pagesa('21004708','Bank','BKT','2020-02-04','21004707').
+pagesa('31004708','Cash',' ','2020-02-21','31004707').
+pagesa('41004708','Cash',' ','2020-02-27','41004707').
+pagesa('51004708','Bank','TEB','2020-03-13','51004707').
+pagesa('61004708','Bank','Banka Ekonomike','2020-03-25','61004707').
+pagesa('71004708','Cash',' ','2020-04-25','71004707').
+pagesa('81004708','Bank','Raiffeisen','2020-05-01','81004707').
+pagesa('91004708','Bank','NLB','2020-05-21','91004707').
+pagesa('12004708','Cash',' ','2020-05-21','12004707').
+pagesa('22004708','Cash',' ','2020-06-08','22004707').
+pagesa('32004708','Cash',' ','2020-06-22,32004707').
+pagesa('42004708','Bank','ProCredit','2020-07-20','42004707').
+pagesa('52004708','Cash',' ','2020-08-04','52004707').
+pagesa('62004708','Bank','NLB','2020-08-17','62004707').
+pagesa('72004708','Cash',' ','2020-08-24','72004707').
+pagesa('82004708','Bank','BKT','2020-08-27','82004707').
+pagesa('92004708','Bank','TEB','2020-09-08','92004707').
+pagesa('13004708','Bank','BKT','2020-10-12','13004707').
+pagesa('23004708','Cash',' ','2020-10-17','23004707').
+pagesa('33004708','Bank','ProCredit','2020-11-20','33004707').
+pagesa('43004708','Cash',' ','2020-12-14','43004707').
+pagesa('53004708','Cash',' ','2020-12-11','53004707').
+pagesa('63004708','Bank','Banka Ekonomike','2020-12-16','63004707').
+pagesa('73004708','Cash',' ','2020-12-28','73004707').
+				
+
+%Grada(Titulli,Paga).
+
+grada('Dr.Cons.	','2000').
+grada('Dr. Asoc.','1500').
+grada('Dr. Spec.','1300').
+
+
+%Lloji_Pageses(bID,Emri_Bankes).
+
+lloji_Pageses('100','NLB').
+lloji_Pageses('200','BKT').
+lloji_Pageses('300','TEB').
+lloji_Pageses('400','ProCredit').
+lloji_Pageses('500','Banka Ekonomike').
+lloji_Pageses('600','Raiffeisen Bank').
+
+
+
+%Hospitalizimi(pID,Data_Pranimit,Data_Leshimit).
+
+hospitalizimi('1','2020-01-31','2020-02-07').
+hospitalizimi('7','2020-04-24','2020-04-25').
+hospitalizimi('8','2020-04-27','2020-05-01').
+hospitalizimi('20','2020-10-15','2020-10-17').
+hospitalizimi('22','2020-12-07','2020-12-14').
+hospitalizimi('25','2020-12-31','202-01-03').
+		
+
+%Dhoma(Dhoma,pID,Inf1ID,Inf2ID).
+
+dhoma('1','1','1','2').
+dhoma('2','7','3','4').
+dhoma('3','8','5','6').
+dhoma('4','20','7','8').
+dhoma('5','22','9','10').
+dhoma('6','28','11','12').
+dhoma('7',' ','13','14').
+dhoma('8',' ','15','16').
+dhoma('9',' ','17','18').
+dhoma('10',' ','19','20').
+
+
+%Pervoja_vjecare(titulli,vitet).
+
+pervoja_vjecare('Dr. Cons.','10').
+pervoja_vjecare('Dr. Asoc.','6').
+pervoja_vjecare('Dr. Spec.','4').
+
+
+%Infermimeri(infID,Emri,Mbiemri,Gjinia).
+
+infermimeri('1','Alberiana','Tofaj','F').
+infermimeri('2','Albiona','Vukaj','F').
+infermimeri('3','Albina','Maloku','F').
+infermimeri('4','Artin','Sermaxhaj','M').
+infermimeri('5','Alban','Beqiri','M').
+infermimeri('6','Ardonis','Vitia','M').
+infermimeri('7','Altin','Asllani','M').
+infermimeri('8','Adonis','Ismaili','M').
+infermimeri('9','Ermira','Hoti','F').
+infermimeri('10','Erblina','Mustafa','F').
+infermimeri('11','Erzen,'Salihu','M').
+infermimeri('12','Patriot','Islami','M').
+infermimeri('13','Orgesa','Dorbelani','F').
+infermimeri('14','Saimire','Osmani','F').
+infermimeri('15','Sinan','Basha','M').
+infermimeri('16','Trim','Sinani','M').
+infermimeri('17','Uresa','Smajli','F').
+infermimeri('18','Vanesa','Musliu','F').
+infermimeri('19','Xhevat','Arifi','M').
+infermimeri('20','Zafire','Azemi','F').
